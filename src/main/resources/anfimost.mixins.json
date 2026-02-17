@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.anfimost.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinInGameHud",
+    "MixinGameRenderer",
+    "MixinWorldRenderer",
+    "MixinLivingEntityRenderer",
+    "MixinClientWorld",
+    "MixinFogRenderer",
+    "MixinHeldItemRenderer",
+    "MixinClientPlayerInteractionManager",
+    "MixinPlayerEntityRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
